@@ -1,1 +1,57 @@
 
+==================================================================
+https://keybase.io/metamarcdw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://nowallet.org
+  * I am metamarcdw (https://keybase.io/metamarcdw) on keybase.
+  * I have a public key ASBVm8qKOXf2CmiZkK3pmrJUQ1M7wFAMiAgbGl4uv--_3go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120559bca8a3977f60a689990ade99ab25443533bc0500c88081b1a5e2ebfefbfde0a",
+      "host": "keybase.io",
+      "kid": "0120559bca8a3977f60a689990ade99ab25443533bc0500c88081b1a5e2ebfefbfde0a",
+      "uid": "59d3bb23525c49b017d8852652489219",
+      "username": "metamarcdw"
+    },
+    "merkle_root": {
+      "ctime": 1526460716,
+      "hash": "de7878c37a67f4188f206729b4ac7f4fcac39553084004ad9ec90d0ebab07454cd3409fceef9ca7dbe78753dee4ca320ae0b89ad77d618c3cbac60bb5e624c30",
+      "hash_meta": "7f5adfadb48e12031a12991875f0fc718e42b99595d60ab50757ae12c393b0ce",
+      "seqno": 2750370
+    },
+    "service": {
+      "entropy": "61sCBfYS9O14+6z/811M+wfS",
+      "hostname": "nowallet.org",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1526460731,
+  "expire_in": 504576000,
+  "prev": "53df9edee4b05da113a495ae93868ec6c71d240bbc9bea863755a2a2f30a56a9",
+  "seqno": 51,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgVZvKijl39gpomZCt6ZqyVENTO8BQDIgIGxpeLr/vv94Kp3BheWxvYWTESpcCM8QgU9+e3uSwXaETpJWuk4aOxscdJAu8m+qGN1WiovMKVqnEIEMind+agAjqW+vx56aRcSSNVpcGapo5UE5zAFYKVkOAAgHCo3NpZ8RAcOy8J9yeK5r0QQBLnzaec7CN/czoACRm3lEIZc6Z52AO3L1jZHwJwJLRl17C8d3AKCESMIQXE7oJy7qU+YW+AKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHJncGNL7uFkMGuyWfVcdsSGGuSQ5wimcPVnPA0LH9nEo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/metamarcdw
+
+==================================================================
