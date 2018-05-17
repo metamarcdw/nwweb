@@ -217,7 +217,7 @@ a:focus, a:hover {
 }
 
 .img-container {
-  width: 175px;
+  width: 200px;
   display: flex;
   flex-direction: column;
 }
