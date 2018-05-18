@@ -216,13 +216,17 @@ a:focus, a:hover {
   justify-content: center;
 }
 
+.screen-container {
+  width: 300px;
+}
+
 .img-container {
   width: 200px;
   display: flex;
   flex-direction: column;
 }
 
-.img-container img {
+.img-fitter {
   object-fit: scale-down;
   padding: 15px;
   max-width: 100%;
