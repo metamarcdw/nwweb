@@ -137,7 +137,6 @@ a {
   text-align: center;
 
   color: white;
-  text-shadow: 2px 2px 5px black;
   background: url('../img/intro-bg.png') no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
@@ -216,6 +215,10 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.shadow-text {
+  text-shadow: 2px 2px 5px black;
 }
 
 .features-parent {
