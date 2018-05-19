@@ -184,6 +184,11 @@ a:focus, a:hover {
   padding-bottom: 150px;
 }
 
+.st-content-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 .sm-content-section {
   padding-top: 75px;
   padding-bottom: 75px;
