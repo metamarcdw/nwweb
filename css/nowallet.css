@@ -221,6 +221,7 @@ a:focus, a:hover {
 
 .screen-container {
   width: 300px;
+  margin-bottom: 30px;
 }
 
 .img-container {
