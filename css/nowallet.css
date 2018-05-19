@@ -184,6 +184,11 @@ a:focus, a:hover {
   padding-bottom: 150px;
 }
 
+.sm-content-section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
 .download-section {
   color: white;
   background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
