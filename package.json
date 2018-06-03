@@ -25,6 +25,9 @@
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
     },
+    "scripts": {
+        "start": "npx gulp dev"
+    },
     "dependencies": {
         "bootstrap": "4.1.1",
         "font-awesome": "4.7.0",
