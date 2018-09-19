@@ -1,208 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>NOWALLET - Deniable Bitcoin brainwallet</title>
 
-    <title>NOWALLET - Deniable Bitcoin brainwallet</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+  <!-- Custom styles for this template -->
+  <link href="css/nowallet.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/nowallet.min.css" rel="stylesheet">
+</head>
 
-  </head>
+<body id="page-top">
 
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">NOWALLET</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">NOWALLET</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#why">Why</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#download">Source</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+          <!-- Rounded switch -->
+          <div class="night-mode-toggle">
+            <input class="night-mode-toggle__checkbox" id="clip" type="checkbox">
+            <label class="night-mode-toggle__label" for="checkbox"></label>
+        </ul>
+        </div>
+      </div>
+  </nav>
+
+  <!-- Intro Header -->
+  <header class="masthead">
+    <div class="intro-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto ">
+            <h1 class="brand-heading">NOWALLET</h1>
+            <p class="intro-text">A Secure, private, and plausibly deniable
+              <br>Cross-platform Bitcoin brainwallet
+              <br>Created by MarcDW</p>
+            <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="sm-content-section text-center">
+    <div class="container features-parent">
+      <div class="row features-container">
+        <div class="screen-container">
+          <img class="img-fitter" src="img/screenshot-send.png" title="Screenshot">
+        </div>
+        <div class="col-lg-8 mx-auto">
+          <div>
+            <h2>About NOWALLET</h2>
+            <p>This project is a secure Bitcoin
+              <a href="https://en.bitcoin.it/wiki/Brainwallet">brainwallet</a> app that will ultimately be meant for desktop and mobile platforms. It was inspired by reports of incidents of Bitcoin being seized physically at border crossings. People need
+              an option for a brainwallet that is secure and easy to use.</p>
+            <p>NOWALLET is written in Python, it uses Electrum servers on the back end, and communicates exclusively over
+              <a href="https://www.torproject.org/">Tor</a>. It uses a variant of the 'WarpWallet' technique for key derivation, rather than the typical, highly insecure method that your average brainwallet uses.
+              <a href="https://keybase.io/warp/">Here</a> is a basic explanation of the benefits of using the WarpWallet technique</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Section -->
+  <section id="why" class="why-section st-content-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto ">
+          <h2>Why use NOWALLET?</h2>
+          <p>You will be getting a secure brainwallet in a convenient desktop/mobile app, with full native and P2SH SegWit address support. You will only need to remember an email address and passphrase combination, rather than an entire 24 word mnemonic
+            seed.
+            <br>People are typically more accustomed to remembering a normal set of login info, which will protect users from forgetting or misremembering part of their seed and losing coins forever.
+            <br>Finally, you will be protecting your privacy by connecting to servers over the Tor network. Optional transactional privacy features
+            <a href="https://blog.samouraiwallet.com/post/173544815052/full-bech32-support-introducing-boltzmann-and">STONEWALL and Ricochet</a>, as well as a
+            <a href="https://bitcoinmagazine.com/articles/electrum-personal-server-will-give-users-full-node-security-they-need/">Personal Server</a> connection setting, are planned to roll out in future releases.</p>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="sm-content-section">
+    <div class="container">
+      <div class="row features-parent">
+        <div class="col-lg-8 mx-auto features-container">
+          <div>
+            <h2 class="text-center">NOWALLET Features:</h2>
+            <ul>
+              <li>100% Free and Open Source Software</li>
+              <li>Keep your money in your mind, securely!</li>
+              <li>Easy and intuitive Material Design based UI</li>
+              <li>Full SegWit support out of the box</li>
+              <li>Smart fee estimation and custom fees</li>
+              <li>Replace by Fee support, on by default</li>
+              <li>Live exchange rates and block explorer integration</li>
+            </ul>
+          </div>
+        </div>
+        <div class="img-container">
+          <img class="img-fitter" src="img/open-source.jpg" title="We are Open Source">
+          <img class="img-fitter" src="img/material-design.png" title="Material Design">
+          <img class="img-fitter" src="img/segwit-logo.jpg" title="SegWit enabled">
+        </div>
+        <hr>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="download-section content-section text-center">
+    <div class="container">
+      <div class="col-lg-8 mx-auto ">
+        <h2>View source code on GitHub</h2>
+        <p>You can test NOWALLET, view more screenshots, and collaborate with us on Github.</p>
+        <a href="https://github.com/metamarcdw/nowallet/blob/master/README.md" class="btn btn-default btn-lg">Visit Github</a>
+      </div>
+      <br>
+    <hr>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="sm-content-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div class="features-container">
+            <div class="img-container">
+            </div>
+          </div>
+          <h2>Contact NOWALLET Developers</h2>
+          <p>Feel free to drop us a line on Twitter or Slack, or open an issue on Github.</p>
+          <ul class="list-inline banner-social-buttons">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/metamarcdw" class="btn btn-default btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#why">Why</a>
+            <li class="list-inline-item">
+              <a href="https://github.com/metamarcdw/nowallet/" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Source</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <li class="list-inline-item">
+              <a href="https://join.slack.com/t/nowalletdevelopers/shared_invite/enQtMzc1ODc1ODMyNzExLTBjMDFiMjBjN2M3ZTc1YjcwYjI3NzQwYTg4NTNhYThiM2UzYmUyZjZjYWMwNzI0ZDViODNlZGVkNGUzMDUwZDg" class="btn btn-default btn-lg">
+                  <i class="fa fa-slack fa-fw"></i>
+                  <span class="network-name">Slack</span>
+                </a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+      <hr>
+    </div>
+  </section>
 
-    <!-- Intro Header -->
-    <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto shadow-text">
-              <h1 class="brand-heading">NOWALLET</h1>
-              <p class="intro-text">A Secure, private, and plausibly deniable
-                <br>Cross-platform Bitcoin brainwallet
-                <br>Created by MarcDW</p>
-              <a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>Copyright &copy; NOWALLET developers 2018</p>
+    </div>
+  </footer>
 
-    <!-- About Section -->
-    <section id="about" class="sm-content-section text-center">
-      <div class="container features-parent">
-        <div class="row features-container">
-          <div class="screen-container">
-            <img class="img-fitter" src="img/screenshot-send.png" title="Screenshot">
-          </div>
-          <div class="col-lg-8 mx-auto">
-            <div>
-              <h2>About NOWALLET</h2>
-              <p>This project is a secure Bitcoin 
-                <a href="https://en.bitcoin.it/wiki/Brainwallet">brainwallet</a> app that will ultimately be meant for desktop and mobile platforms. It was inspired by reports of incidents of Bitcoin being seized physically at border crossings. People need an option for a brainwallet that is secure and easy to use.</p>
-              <p>NOWALLET is written in Python, it uses Electrum servers on the back end, and communicates exclusively over 
-                <a href="https://www.torproject.org/">Tor</a>. It uses a variant of the 'WarpWallet' technique for key derivation, rather than the typical, highly insecure method that your average brainwallet uses. 
-                <a href="https://keybase.io/warp/">Here</a> is a basic explanation of the benefits of using the WarpWallet technique</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
 
-    <!-- Why Section -->
-    <section id="why" class="why-section st-content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto shadow-text">
-            <h2>Why use NOWALLET?</h2>
-            <p>You will be getting a secure brainwallet in a convenient desktop/mobile app, with full native and P2SH SegWit address support. You will only need to remember an email address and passphrase combination, rather than an entire 24 word mnemonic seed.
-              <br>People are typically more accustomed to remembering a normal set of login info, which will protect users from forgetting or misremembering part of their seed and losing coins forever.
-              <br>Finally, you will be protecting your privacy by connecting to servers over the Tor network. Optional transactional privacy features 
-                <a href="https://blog.samouraiwallet.com/post/173544815052/full-bech32-support-introducing-boltzmann-and">STONEWALL and Ricochet</a>, as well as a 
-                <a href="https://bitcoinmagazine.com/articles/electrum-personal-server-will-give-users-full-node-security-they-need/">Personal Server</a> connection setting, are planned to roll out in future releases.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.js"></script>
 
-    <!-- Features Section -->
-    <section id="features" class="sm-content-section">
-      <div class="container">
-        <div class="row features-parent">
-          <div class="col-lg-8 mx-auto features-container">
-            <div>
-              <h2 class="text-center">NOWALLET Features:</h2>
-              <ul>
-                <li>100% Free and Open Source Software</li>
-                <li>Keep your money in your mind, securely!</li>
-                <li>Easy and intuitive Material Design based UI</li>
-                <li>Full SegWit support out of the box</li>
-                <li>Smart fee estimation and custom fees</li>
-                <li>Replace by Fee support, on by default</li>
-                <li>Live exchange rates and block explorer integration</li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-container">
-            <img class="img-fitter" src="img/open-source.jpg" title="We are Open Source">
-            <img class="img-fitter" src="img/material-design.png" title="Material Design">
-            <img class="img-fitter" src="img/segwit-logo.jpg" title="SegWit enabled">
-          </div>
-        </div>
-      </div>
-    </section>
-  
-      <!-- Download Section -->
-    <section id="download" class="download-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto shadow-text">
-          <h2>View source code on GitHub</h2>
-          <p>You can test NOWALLET, view more screenshots, and collaborate with us on Github.</p>
-          <a href="https://github.com/metamarcdw/nowallet/blob/master/README.md" class="btn btn-default btn-lg">Visit Github</a>
-        </div>
-      </div>
-    </section>
+  <!-- Custom scripts for this template -->
+  <script src="js/nowallet.min.js"></script>
 
-    <!-- Contact Section -->
-    <section id="contact" class="sm-content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div class="features-container">
-              <div class="img-container">
-                <img src="img/brain.png" class="img-fitter">
-              </div>
-            </div>
-            <h2>Contact NOWALLET Developers</h2>
-            <p>Feel free to drop us a line on Twitter or Slack, or open an issue on Github.</p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/metamarcdw" class="btn btn-default btn-lg">
-                  <i class="fa fa-twitter fa-fw"></i>
-                  <span class="network-name">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/metamarcdw/nowallet/" class="btn btn-default btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://join.slack.com/t/nowalletdevelopers/shared_invite/enQtMzc1ODc1ODMyNzExLTBjMDFiMjBjN2M3ZTc1YjcwYjI3NzQwYTg4NTNhYThiM2UzYmUyZjZjYWMwNzI0ZDViODNlZGVkNGUzMDUwZDg" class="btn btn-default btn-lg">
-                  <i class="fa fa-slack fa-fw"></i>
-                  <span class="network-name">Slack</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; NOWALLET developers 2018</p>
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/nowallet.min.js"></script>
-
-  </body>
+</body>
 
 </html>
+
